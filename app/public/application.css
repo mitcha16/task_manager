@@ -1,0 +1,35 @@
+html{
+  background-image: url("books.jpg");
+}
+
+body {
+  font-family: 'Avant Garde', Avantgarde, 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+  font-weight: bolder;
+  background: rgba(255,255,255,0.3);
+  height: 600px;
+  margin: auto;
+  width: 500px;
+  border-style: groove;
+  border-color: white;
+}
+a:link{
+  color: white;
+}
+a:visited{
+  color: tan;
+}
+a:hover{
+  font-size: 22px;
+  transition: all 0.3s ease-out;
+}
+
+h1{
+  font-weight: bolder;
+  font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+  letter-spacing: 2px;
+  text-align: center;
+  color: white;
+}
+h3{
+  color: white;
+}
