@@ -31,5 +31,12 @@ h1{
   color: white;
 }
 h3{
+  font-family: 'Avant Garde', Avantgarde, 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+  color: white;
+}
+
+p{
+  text-align: center;
+  font-family: 'Avant Garde', Avantgarde, 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
   color: white;
 }
