@@ -19,8 +19,8 @@ a:visited{
   color: tan;
 }
 a:hover{
-  font-size: 22px;
   transition: all 0.3s ease-out;
+  color: #6D200A;
 }
 
 h1{
