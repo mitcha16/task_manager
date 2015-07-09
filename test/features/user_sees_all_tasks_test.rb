@@ -29,7 +29,6 @@ class UserSeesAllTasksTest < FeatureTest
     click_button("create")
     visit("/tasks")
     click_link("edit")
-    assert_equal "/tasks/1/edit", current_path
     fill_in("task[title]", with: "sandwich")
     fill_in("task[description]", with: "lalala")
     click_button("edit")
