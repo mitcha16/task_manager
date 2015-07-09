@@ -18,7 +18,7 @@ class TaskManagerTest < Minitest::Test
         assert_equal 3, TaskManager.all.size
       end
 
-      def test_it_can_find_all_task
+      def test_it_can_find_a_task_by_id
         TaskManager.create({:title => "a title",
           :description => "a description"})
         TaskManager.create({:title => "new title",
